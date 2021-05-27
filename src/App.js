@@ -1,12 +1,18 @@
-import React, { useState, useEffect } from 'react'
+
+import React from 'react';
 import './App.css';
-import Appp from './components/VoiceToText';
-class App extends React.Component{
-  render(){
-    return(
-      <Appp/>
-    );
-  }
+import Header from './components/HeaderComponent';
+class App extends React.Component {
+  
+
+
+render(){
+  return (
+    <div className="App">
+    <Header />
+                </div>
+  );
+ }
 }
 
-export default App
+export default App;
